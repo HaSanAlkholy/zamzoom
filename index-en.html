@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/vendor/all.min.css" />
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/vendor/aos.css" />
+    <link rel="stylesheet" href="./css/vendor/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <title>Zamzoom</title>
+  </head>
+
+  <body class="overflow">
+    <div class="pre-loader">
+      <div class="content">
+        <div class="lds-dual-ring"></div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="nav-content">
+        <div class="container">
+          <div class="nav-bottom">
+            <div class="nav-logo">
+              <a href="#"><img src="./images/logo.png" alt=".." /></a>
+            </div>
+            <div class="nava" id="nava">
+              <div class="nava-content">
+                <div class="nava-head">
+                  <div class="nava-close" id="close-nava">
+                    <i class="fas fa-times"></i>
+                  </div>
+                </div>
+                <ul>
+                  <li><a href="#"> Home </a></li>
+                  <li><a href="#"> New Arrivals</a></li>
+                  <li class="top-setting sm-slide slide nav-icon">
+                    <a class="setting-anchor drop ico-btn">
+                      <span class="txt"> Products </span>
+                      <i class="fas fa-chevron-down down"> </i>
+                    </a>
+                    <ul class="top-dropDown">
+                      <li><a href="#"> Naemi </a></li>
+                      <li><a href="#"> Nisf Naimi </a></li>
+                      <li><a href="#"> free </a></li>
+                      <li><a href="#"> Half Free </a></li>
+                      <li><a href="#"> Najdi </a></li>
+                      <li><a href="#"> Half Najdi </a></li>
+                      <li><a href="#"> Tess </a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#"> Shows </a></li>
+                  <li><a href="#"> Contact us </a></li>
+                  <li><a href="#"> About us</a></li>
+
+                  <li class="top-setting sm-slide slide sm-link user nav-icon">
+                    <a class="setting-anchor drop ico-btn">
+                      <i class="fas fa-user ico"></i>
+                      <span class="txt"> Account</span>
+                      <i class="fas fa-chevron-down down"></i>
+                    </a>
+                    <ul class="top-dropDown">
+                      <li><a href="#">Sign in</a></li>
+                      <li><a href="#">Sign up</a></li>
+                      <li><a href="#">Supscribe</a></li>
+                    </ul>
+                  </li>
+                  <li class="top-setting sm-slide slide sm-link nav-lang">
+                    <a class="setting-anchor drop">
+                      <img src="./images/icons/en.png" alt=".." />
+                      <span class="txt">English</span>
+                      <i class="fas fa-chevron-down down"></i>
+                    </a>
+                    <ul class="top-dropDown">
+                      <li><a href="./index.html">العربية</a></li>
+                      <li><a href="./index-en.html">English</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav-icons flex-center">
+              <li class="nava-btn nav-icon" id="nava-icon">
+                <div class="ico-btn">
+                  <i class="fas fa-bars"></i>
+                </div>
+              </li>
+              <li class="search-btn nav-icon" id="search-btn">
+                <div class="ico-btn">
+                  <i class="fas fa-search"></i>
+                </div>
+              </li>
+              <li class="top-setting sm-slide slide sm-link user nav-icon">
+                <a class="setting-anchor drop ico-btn">
+                  <i class="fas fa-user ico"></i>
+                  <span class="txt"> Account</span>
+                  <i class="fas fa-chevron-down down"></i>
+                </a>
+                <ul class="top-dropDown">
+                  <li><a href="#">Sign in</a></li>
+                  <li><a href="#">Sign up</a></li>
+                  <li><a href="#">supscribe</a></li>
+                </ul>
+              </li>
+              <li class="cart nav-icon">
+                <div class="ico-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+              </li>
+              <li class="top-setting sm-slide slide sm-link nav-lang">
+                <a class="setting-anchor drop">
+                  <img src="./images/icons/en.png" alt=".." />
+                  <span class="txt">English</span>
+                  <i class="fas fa-chevron-down down"></i>
+                </a>
+                <ul class="top-dropDown">
+                  <li><a href="./index.html">العربية</a></li>
+                  <li><a href="./index-en.html">English</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="search-form" id="search-form">
+      <div class="close-search" id="close-search">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="search">
+        <div class="search-content">
+          <div class="form">
+            <div class="input-form">
+              <input type="text" placeholder="Search..." />
+              <button class="search-btn flex-center">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="swiper-container slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </header>
+
+    <section class="banner-container">
+      <div class="container">
+        <div class="banner-content flex-center">
+          <div class="banner" data-aos="fade-left">
+            <a href="#"><img src="./images/banners/1.jpg" alt=".." /> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products product-slider">
+      <div class="container">
+        <div class="product-head s-head" data-aos="fade-left">
+          <img src="./images/icons/head.png" alt=".." />
+          <h3>Products</h3>
+        </div>
+        <div class="products-body" data-aos="zoom-in">
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/1.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/2.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/3.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/4.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/1.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/2.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/3.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-img">
+              <a href="#">
+                <img src="./images/products/4.jpg" alt=".." />
+              </a>
+            </div>
+            <div class="product-disc">
+              <h5>
+                <a href="#">Half free, chopped fresh</a>
+              </h5>
+              <div class="price flex-center">
+                <div class="price-sale"><span>1440</span><span>S.R</span></div>
+                <div class="now"><span>1080</span> <span>S.R</span></div>
+              </div>
+              <a href="#" class="cart">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="more-btn">
+          <a href="#" class="more">Show more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-container">
+      <div class="container">
+        <div class="banner-content flex-center">
+          <div class="banner" data-aos="fade-left">
+            <a href="#"><img src="./images/banners/2.jpg" alt=".." /> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-slider">
+      <div class="container">
+        <div class="product-head s-head" data-aos="zoom-in">
+          <img src="./images/icons/head.png" alt=".." />
+          <h3>Besrseller</h3>
+        </div>
+        <div class="product-body" data-aos="zoom-in">
+          <div class="product-swiper-container s-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt=".." />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5>
+                      <a href="#">Half free, chopped fresh</a>
+                    </h5>
+                    <div class="price flex-center">
+                      <div class="price-sale">
+                        <span>1440</span><span>S.R</span>
+                      </div>
+                      <div class="now"><span>1080</span> <span>S.R</span></div>
+                    </div>
+                    <a href="#" class="cart">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/2.jpg" alt=".." />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5>
+                      <a href="#">Half free, chopped fresh</a>
+                    </h5>
+                    <div class="price flex-center">
+                      <div class="price-sale">
+                        <span>1440</span><span>S.R</span>
+                      </div>
+                      <div class="now"><span>1080</span> <span>S.R</span></div>
+                    </div>
+                    <a href="#" class="cart">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/3.jpg" alt=".." />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5>
+                      <a href="#">Half free, chopped fresh</a>
+                    </h5>
+                    <div class="price flex-center">
+                      <div class="price-sale">
+                        <span>1440</span><span>S.R</span>
+                      </div>
+                      <div class="now"><span>1080</span> <span>S.R</span></div>
+                    </div>
+                    <a href="#" class="cart">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/4.jpg" alt=".." />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <h5>
+                      <a href="#">Half free, chopped fresh</a>
+                    </h5>
+                    <div class="price flex-center">
+                      <div class="price-sale">
+                        <span>1440</span><span>S.R</span>
+                      </div>
+                      <div class="now"><span>1080</span> <span>S.R</span></div>
+                    </div>
+                    <a href="#" class="cart">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notes">
+      <div class="container">
+        <div class="notes-content">
+          <div class="notes-swiper-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="note">
+                  <div class="icon"><i class="fas fa-star"> </i></div>
+                  <div class="txt">
+                    <h3>Featured Products</h3>
+                    <h4>100% original products</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="note">
+                  <div class="icon"><i class="fas fa-credit-card"> </i></div>
+                  <div class="txt">
+                    <h3>Payment methods</h3>
+                    <h4>100% secure payment methods</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="note">
+                  <div class="icon"><i class="fas fa-users"> </i></div>
+                  <div class="txt">
+                    <h3>Customer Service</h3>
+                    <h4>Excellent customer service 24/7</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="note">
+                  <div class="icon"><i class="fas fa-gift"> </i></div>
+                  <div class="txt">
+                    <h3>Free Shipping</h3>
+                    <h4>For orders more than 750 SR</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./images/footer-logo.png" alt=".." />
+            <div class="social flex-center">
+              <div class="social-icon whats">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+              <div class="social-icon snap">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-snapchat-ghost"></i>
+                </a>
+              </div>
+              <div class="social-icon insta">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div class="social-icon twitter">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+              <div class="social-icon facebook">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="info footer-list"
+            data-aos="fade-left"
+            data-aos-delay="0"
+            data-target="#collapse1"
+            aria-expanded="false"
+            aria-controls="collapse1"
+          >
+            <div class="head">
+              <h4>Information <i class="fas fa-chevron-down down"> </i></h4>
+            </div>
+            <ul id="collapse1">
+              <li><a href="#"> About us</a></li>
+              <li><a href="#"> Shipping and Delivery </a></li>
+              <li><a href="#"> Bank accounts </a></li>
+              <li><a href="#"> Privacy </a></li>
+              <li><a href="#"> Terms of Use </a></li>
+            </ul>
+          </div>
+          <div
+            class="cust footer-list"
+            data-aos="fade-left"
+            data-aos-delay="600"
+            data-target="#collapse3"
+            aria-expanded="false"
+            aria-controls="collapse3"
+          >
+            <div class="head">
+              <h4>
+                Customer Service <i class="fas fa-chevron-down down"> </i>
+              </h4>
+            </div>
+            <ul id="collapse3">
+              <li><a href="#"> Contact us </a></li>
+              <li><a href="#"> Site map </a></li>
+            </ul>
+          </div>
+          <div
+            class="adds footer-list"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-target="#collapse2"
+            aria-expanded="false"
+            aria-controls="collapse2"
+          >
+            <div class="head">
+              <h4>Extensions: <i class="fas fa-chevron-down down"> </i></h4>
+            </div>
+            <ul id="collapse2">
+              <li><a href="#"> Gift vouchers </a></li>
+              <li><a href="#"> Featured Shows </a></li>
+            </ul>
+          </div>
+          <div
+            class="adds footer-list"
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-target="#collapse4"
+            aria-expanded="false"
+            aria-controls="collapse4"
+          >
+            <div class="head">
+              <h4>Account <i class="fas fa-chevron-down down"></i></h4>
+            </div>
+            <ul id="collapse4">
+              <li><a href="#">Account</a></li>
+              <li><a href="#"> Orders </a></li>
+              <li><a href="#"> wish list </a></li>
+              <li><a href="#"> Newslitter </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="payment" data-aos="zoom-in" data-aos-offset="0">
+          <img src="./images/footer/4.png" alt=".." />
+          <img src="./images/footer/3.png" alt=".." />
+          <img src="./images/footer/2.png" alt=".." />
+          <img src="./images/footer/1.png" alt=".." />
+        </div>
+        <div class="credit flex-center">
+          <p>All rights reserved to Zamzam Store 2021 &copy;</p>
+          <p>
+            Designed & Developed
+            <a href="https://tasawk.com.sa/" target="_blank">
+              <img src="./images/icons/footer-en.png" alt=".."
+            /></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="goUp">
+      <div
+        id="up"
+        class="up flex-center"
+        onclick="window.scroll({top: 0,behavior: 'smooth'});"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </div>
+    </div>
+
+    <script src="./js/vendor/jquery.min.js"></script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/vendor/swiper-bundle.js"></script>
+    <script src="./js/vendor/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
