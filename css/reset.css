@@ -79,7 +79,7 @@ ul {
 
 .c2,
 .container {
-  width: 1400px;
+  width: 1140px;
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -90,13 +90,6 @@ ul {
   .c2,
   .container {
     padding: 0 15px;
-  }
-}
-
-@media (max-width: 1400px) {
-  .c2,
-  .container {
-    width: 1140px;
   }
 }
 
